@@ -23,7 +23,7 @@ void loop(){
                       
                       
                       if (botomStatus == HIGH && botomAnterrior == LOW) {
-                             status = status + 1;                            //Condicion que verifica si el usuario a presionado el botom
+                             status = status + 1;                            //Condición que verifica si el usuario ha presionado el botón
                              delay(10);
                              Serial.print("hola");
                        }
@@ -33,7 +33,7 @@ void loop(){
                          
                       if(status != 0 && x==0 && concurrencia==80){  
                            
-                           compareTo=true;                                 //Condicion que da luz verde a la condicion de las variables
+                           compareTo=true;                                 //Condición que da luz verde a la condición de las variables
                            Serial.println(status);
                            break;
                   
@@ -41,8 +41,8 @@ void loop(){
                  
                       if(status != 0){
                         delay(20);
-                         concurrencia++;                                   //concurrencia o concatenacion de las veces que paso, sirve para dar unos 10 seg depues de presinar
-                       }                                                   //una vez el botom para verificar si se volvera a presionar o no.
+                         concurrencia++;                                   //Concurrencia o concatenación de las veces que paso, sirve para dar unos 10 seg después de presionar
+                       }                                                   //Una vez el botón para verificar si se volverá a presionar o no. 
                     
                        
                    botomAnterrior = botomStatus;
@@ -58,7 +58,7 @@ void loop(){
 
 
                
-               if(compareTo == true){                                  //Aqui valora la condicion si se cumplio una anterior osea que "status" sea diferente de 0
+               if(compareTo == true){                                   //Aquí valora la condición si se cumplió una anterior que el "status" sea diferente de 0
 
                    switch (status)
                    {
