@@ -1,3 +1,5 @@
+3 led with 1 bottom in Arduino.
+
 3 LED y 1 BOTOM lo que quiero hacer es que al presionar 3 veces el  botón se prenda el LED rojo, 2 Veces presionado el botón, led amarillo prendido y 1 una vez el led verde.
 
 
