@@ -1,4 +1,4 @@
-3 led with 1 bottom in Arduino.
+3 led with 1 button in Arduino.
 
 [english]
 3 LED , 1 button I want to do is that when you press the button 3 times the red LED is lit, 2 Times pressed the button lit yellow LED and 1 after the green LED .
