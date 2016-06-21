@@ -9,11 +9,10 @@
 [english]
 
 [Spanish]
-3 LED y 1 botón lo que quiero hacer es que al presionar 3 veces el  botón se prenda el LED rojo, 2 Veces presionado el botón, led amarillo prendido y 1 una vez el led verde.
+3 LED y 1 botón lo que quiero hacer es que al presionar tres veces el  botón se prenda el LED rojo, al presionarlo dos veces encienda el led amarillo y una vez el led verde.
 
-1 presionado = Led verde encendido.
-2 presionado = Led amarillo encendido.
-3 presionado = Led rojo encendido.
-[Spanish]
+1 push = Verde encendido.
+2 push = Amarillo encendido.
+3 push = Rojo encendido.
 
-Youtube; http://www.youtube.com/watch?v=FC_h7Gb994c
+Watch video Youtube; http://www.youtube.com/watch?v=FC_h7Gb994c
